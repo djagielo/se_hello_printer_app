@@ -7,3 +7,5 @@ run:
 	python main.py
 tests:
 	PYTHONPATH=. py.test
+docker_build:
+	docker build -t hello-world-printer .
